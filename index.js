@@ -320,10 +320,16 @@ const argTimesTwo = (num) => {
 */
 function carMaker(/* code here */odometer) {
   /* code here */
-  return { odometer: odometer, drive: (a) => {
-      return odometer = odometer + a
+  const ans =  { odometer: odometer, drive: (a) => {
+        return ans.odometer += a
+        
   }}
+  return ans
 }
+// const testing = carMaker(100)
+// testing.drive(2)
+// console.log(testing)
+
 
 /// ////// END OF CHALLENGE /////////
 /// ////// END OF CHALLENGE /////////
